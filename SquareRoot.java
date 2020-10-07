@@ -30,7 +30,7 @@ public class SquareRoot {
         DecimalFormat formatter = new DecimalFormat("#,###.##");
 
         // Print the results
-        System.out.println("The square root of " + radicand + " is " +
-                formatter.format(root) + ".");
+        System.out.println("The square root of " + formatter.format(radicand) + 
+                " is " + formatter.format(root) + ".");
     }
 }
